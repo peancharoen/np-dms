@@ -5,9 +5,8 @@
     {
         echo "MySQL Error: " . mysqli_connect_error();
     } */
-
-    $link = new mysqli("localhost", "root","","Np721220$");  
-/* check connection */
+    $link = new mysqli("localhost", "nattanin","Np721220$","npdms"); 
+ /* check connection */
     if ($link->connect_errno) {  
     printf("Connect failed: %s\n", $link->connect_error);  
     exit();  
